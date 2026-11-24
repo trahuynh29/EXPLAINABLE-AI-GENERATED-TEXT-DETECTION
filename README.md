@@ -35,10 +35,16 @@ explainable-ai-text-detection/
 │   ├── qualitative_rationale_examples.csv            # Representative forensic linguistic rationale examples
 │   ├── fig1_domain_macro_f1_comparison.png           # Cross-domain Macro-F1 bar chart (300 DPI)
 │   └── fig2_confusion_matrices.png                   # Confusion matrices for Baseline vs. Student (300 DPI)
-├── report/                                           # Full thesis/project report (LaTeX source & compiled PDFs)
-│   ├── main_vi.pdf                                   # Vietnamese report
-│   ├── main_en.pdf                                   # English report
-│   └── src/                                          # LaTeX source files (.tex) and figure assets
+├── report/                                           # Full thesis/project report (LaTeX source & compiled PDF)
+│   ├── main_en.tex                                   # Main LaTeX entry file
+│   ├── main_en.pdf                                   # Compiled English PDF report
+│   ├── chapters/                                     # Chapter-by-chapter LaTeX source files
+│   │   ├── chuong_1_en.tex
+│   │   ├── chuong_2_en.tex
+│   │   ├── chuong_3_en.tex
+│   │   ├── chuong_4_en.tex
+│   │   └── chuong_5_en.tex
+│   └── figures/                                      # High-resolution report figures
 └── slides/                                           # Presentation slides
 ```
 
