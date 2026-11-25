@@ -35,17 +35,8 @@ explainable-ai-text-detection/
 │   ├── qualitative_rationale_examples.csv            # Representative forensic linguistic rationale examples
 │   ├── fig1_domain_macro_f1_comparison.png           # Cross-domain Macro-F1 bar chart (300 DPI)
 │   └── fig2_confusion_matrices.png                   # Confusion matrices for Baseline vs. Student (300 DPI)
-├── report/                                           # Full thesis/project report (LaTeX source & compiled PDF)
-│   ├── main_en.tex                                   # Main LaTeX entry file
-│   ├── main_en.pdf                                   # Compiled English PDF report
-│   ├── chapters/                                     # Chapter-by-chapter LaTeX source files
-│   │   ├── chuong_1_en.tex
-│   │   ├── chuong_2_en.tex
-│   │   ├── chuong_3_en.tex
-│   │   ├── chuong_4_en.tex
-│   │   └── chuong_5_en.tex
-│   └── figures/                                      # High-resolution report figures
-└── slides/                                           # Presentation slides
+├── report/                                           # Project report (PDF)        
+└── presention/                                           # Presentation slides
 ```
 
 *(Note: Raw corpora, processed parquet splits, and model adapter checkpoints are excluded from Git tracking due to file size limits and will be provided separately upon request).*
@@ -69,7 +60,15 @@ All models are evaluated on a balanced stratified test set spanning **11 domains
 
 ---
 
-## 4. Author
+## 4. Data
+
+Due to GitHub's file size limitations, the raw corpora, stratified 11-domain parquet splits, teacher rationales, and trained model checkpoints are hosted externally on Google Drive:
+
+* **Full Dataset & Model Checkpoints (Google Drive):** [Download here](https://drive.google.com/drive/folders/1WEdSzub-QtIAHpcCaIHDaC29tqxTluhx?usp=sharing)
+
+---
+
+## 5. Author
 
 * **Author:** Huynh Thanh Tra — B.Sc. in Data Science, Department of Mathematics and Statistics, Quy Nhon University.
 * **Date:** November 2026.
